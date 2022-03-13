@@ -130,11 +130,27 @@
   var classSize = (18)
   var classSizePlusOne = (classSize + classSize++)
 
-    if(classSize => 20) {
+    if(classSize >= 20) {
         console.log(classSizePlusOne + alert("class is full"));
-    } else {
-        console.log(prompt("If you do not have a schedule problem between 10:00am and 11:00am click OK and you will be added to the class"));
     }
+    else {
+        console.log(confirm("If you do not have a schedule problem between 10:00am and 11:00am click OK and you will be added to the class"));
+        console.log(alert("Thank you for enrolling in our class!"))
+    }
+//next problem//
+    var goodCustomer = ("yes");
+    var badCustomer = ("no");
+   var member = prompt("Are you a store member?");
+
+   switch(member) {
+       case "yes":
+           text = "Great! you get our full flavored discount not like those losers that aren't members of our club!";
+           console.log("This is a valued customer");
+           break;
+       case "no":
+           text = "You must have more than two items to receive any discount because we don't like you!"
+   }
+
 
 
 </script>
