@@ -1,5 +1,34 @@
 "use strict";
 
+
+/*function addNumbers = (){
+    var total = 4 + 19;
+    return total;
+    console.log(total);
+
+}
+
+var =
+
+function addNumOne(name)*/
+
+var name = "Ben";
+
+
+function sayHello (name){
+    var helloMessage = name + " How are you?"
+    console.log(helloMessage);
+    return sayHello;
+}
+sayHello(name);
+
+// }
+//1. name the function "sahHello"
+//2. define parameter as "name"
+//2. make var named helloMessage
+//3. console.log()
+//4. return
+
 /**
  * TODO:
  * Create a function called 'sayHello' that takes a parameter 'name'.
@@ -8,6 +37,14 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
+/*
+var sayHello = "Hello, how are you";
+function name = (){
+
+    console.log(helloMessage);
+}
+name();
+*/
 
 /**
  * TODO:
