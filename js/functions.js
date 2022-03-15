@@ -12,6 +12,7 @@ var =
 
 function addNumOne(name)*/
 
+/*
 var name = "Ben";
 
 
@@ -21,6 +22,7 @@ function sayHello (name){
     return sayHello;
 }
 sayHello(name);
+*/
 
 // }
 //1. name the function "sahHello"
@@ -60,10 +62,23 @@ name();
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
+/*var myName = "Ben";
+var helloMessage = sayHello(myName);
+function sayHello (helloMessage) {
+    return (helloMessage + " How are you?");
+
+}
+console.log(helloMessage)*/
+
+/*
+1. make variable named "myName"
+2. pass the variable to the "sayHello" function
+console log sayHello*/
+
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
-var random = Math.floor((Math.random() * 3) + 1);
+
 
 /**
  * TODO:
@@ -82,6 +97,20 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+var random = Math.floor((Math.random() * 3) + 1);
+var myResult = isTwo(random);
+function isTwo (random) {
+    if (random == 2) {
+        return true;
+
+    } else {
+        return false;
+    }
+}
+console.log(random);
+console.log(myResult);
+
+
 
 /**
  * TODO:
@@ -102,8 +131,8 @@ var random = Math.floor((Math.random() * 3) + 1);
  * then display the dollar amount they should tip
  */
 
-/**
- * TODO:
+/** */
+/** * TODO:
  * Create a function named `applyDiscount`. This function should accept a price
  * (before a discount is applied), and a discount percentage (a number between 0
  * and 1). It should return the result of applying the discount to the original
