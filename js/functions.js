@@ -97,6 +97,7 @@ console log sayHello*/
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+/*
 var random = Math.floor((Math.random() * 3) + 1);
 var myResult = isTwo(random);
 function isTwo (random) {
@@ -110,6 +111,7 @@ function isTwo (random) {
 console.log(random);
 console.log(myResult);
 
+*/
 
 
 /**
@@ -123,6 +125,23 @@ console.log(myResult);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+
+var myTip20 = (.20);
+var myTip25 = (.25);
+var myTip15 = (.15);
+var myBill20 = (20);
+var myBill25 = (25.50);
+var myBill33 = (33.42);
+
+var tipTotal = (calculateTip);
+console.log(tipTotal);
+
+function calculateTip (myBill20, myBill25, myBill33){
+   var tip1 = calculateTip * myTip20;
+   var tip2 = calculateTip * myTip25;
+   var tip3 = calculateTip * myTip33;
+   console.log(tip1, tip2, tip3)
+}
 
 /**
  * TODO:
