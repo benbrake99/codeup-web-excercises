@@ -125,7 +125,7 @@ console.log(myResult);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
-var bill1 = 20;
+/*var bill1 = 20;
 var tip1 = .20;
 var tip1Total = bill1 * tip1
 var bill2 = 25.50;
@@ -144,7 +144,7 @@ function tipCalc(){
 
 }
 var tipTotal = tipCalc();
-console.log(tipTotal);
+console.log(tipTotal);*/
 
 
 /*ar myTip20 = (.20);
@@ -177,6 +177,42 @@ console.log(tipTotal);*/
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
+
+var bill1 = 20;
+
+var tip1Total = bill1 * tip1
+var bill2 = 25.50;
+alert("your bill is $25.50")
+
+var bill3 = 33.42;
+alert("your bill is $33.42")
+
+var tip1 = .15;
+var tip2 = .20;
+var tip3 = .25;
+
+
+
+
+function tipCalc(){
+    alert("your bill is $20")
+    var sumBillTip1 = bill1 * tip1;
+    var sumBillTip2 = bill1 * tip2;
+    var sumBillTip3 = bill1 * tip3;
+    var billTip1 =prompt("Please enter the gratuity amount you would like to add to your bill of $20"<br> + sumBillTip1 + " is 15% of your bill"<br> + sumBillTip2 + " is 20% of your bill"<br> + sumBillTip3 + " is 25% of your bill");
+    console.log(sumBillTip1, sumBillTip2, sumBillTip3);
+    console.log("The customer entered:" + billTip1)
+
+    console.log(bill1 * tip1 + " tip1 amount");
+    console.log(bill2 * tip2 + " tip2 amount");
+    console.log(bill3 * tip3 + " tip3 amount");
+    return sumBillTip1, sumBillTip2, sumBillTip3;
+
+}
+var tipTotal = tipCalc();
+console.log(tipTotal);
+
+
 
 /** */
 /** * TODO:
