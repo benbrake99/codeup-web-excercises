@@ -125,23 +125,51 @@ console.log(myResult);
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+var bill1 = 20;
+var tip1 = .20;
+var tip1Total = bill1 * tip1
+var bill2 = 25.50;
+var tip2 = .25;
+var bill3 = 33.42;
+var tip3 = .15;
 
-var myTip20 = (.20);
-var myTip25 = (.25);
-var myTip15 = (.15);
-var myBill20 = (20);
-var myBill25 = (25.50);
-var myBill33 = (33.42);
+function tipCalc(){
+    var sumTip1 = bill1 * tip1;
+    var sumTip2 = bill2 * tip2;
+    var sumTip3 = bill3 * tip3;
+    console.log(bill1 * tip1 + " tip1 amount");
+    console.log(bill2 * tip2 + " tip2 amount");
+    console.log(bill3 * tip3 + " tip3 amount");
+    return sumTip1, sumTip2, sumTip3;
 
-var tipTotal = (calculateTip);
+}
+var tipTotal = tipCalc();
 console.log(tipTotal);
 
-function calculateTip (myBill20, myBill25, myBill33){
+
+/*ar myTip20 = (.20);
+/!*var myTip25 = (.25);
+var myTip15 = (.15);*!/
+var myBill20 = (20);
+/!*var myBill25 = (25.50);
+var myBill33 = (33.42);*!/
+
+var tipTotal = (calculateTip);
+console.log(tipTotal);*/
+
+/*function calculateTip (myBill20, myBill25, myBill33){
    var tip1 = calculateTip * myTip20;
    var tip2 = calculateTip * myTip25;
-   var tip3 = calculateTip * myTip33;
+   var tip3 = calculateTip * myTip15;
    console.log(tip1, tip2, tip3)
-}
+*/
+
+//function calculateTip(myBill20){
+//    var tip1 = calculateTip * myTip20
+
+//}
+//calculateTip(myBill20);
+
 
 /**
  * TODO:
