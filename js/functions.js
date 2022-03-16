@@ -177,14 +177,15 @@ console.log(tipTotal);*/
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
-
+/*
 var bill1 = 20;
 
 var tip1Total = bill1 * tip1
 var bill2 = 25.50;
 alert("your bill is $25.50")
 
-var bill3 = 33.42;
+var bill3 = 33.42;*/
+/*
 alert("your bill is $33.42")
 
 var tip1 = .15;
@@ -213,6 +214,7 @@ var tipTotal = tipCalc();
 console.log(tipTotal);
 
 
+*/
 
 /** */
 /** * TODO:
@@ -228,3 +230,24 @@ console.log(tipTotal);
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+
+
+// TODO: write a conditional that prints "hey, she's my instructor" to the
+//  console if the name provided is "Laura", but if the name provided
+//  is "Kenneth", print out "oh, he's my instructor too!", if the name
+//  is neither Laura nor Kenneth, print out "um I don't know them"
+
+/*
+
+var name = prompt(" " +
+    what is your name?");
+if (name == Laura){
+    console.log("hey she's my instructor");
+} else if (name == Kenneth){
+    console.log("he's my instructor too");
+} else {
+    console.log("um I don't know them");
+}
+*/
+
+
