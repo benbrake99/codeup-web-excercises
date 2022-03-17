@@ -86,6 +86,7 @@
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+/*
 
 var luckyNumber = Math.floor(Math.random() * 6);
 var price = prompt("Enter the total amount of your purchase ");
@@ -119,6 +120,7 @@ alert("The original purchase price was:  $" + price);
 alert("your total discount is: $" + (price - myDisc))
 alert("final cost is: $" + myDisc);
 
+*/
 
 /**
  * TODO:
@@ -153,3 +155,27 @@ alert("final cost is: $" + myDisc);
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
 */
+
+confirm("Would you like to pick a number?");
+var myNumber = prompt("enter a number: ");
+var plus100 = (myNumber + 100);
+var result;
+
+
+if(myNumber % 2 == 0){
+    console.log("the number is even");
+} else {
+    console.log ("the number is odd");
+}
+if(myNumber > 0) {
+    console.log("the number is positive.");
+} else {
+    console.log("the number is negative");
+}
+
+console.log(plus100);
+
+
+
+
+
