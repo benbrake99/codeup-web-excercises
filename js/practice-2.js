@@ -1,6 +1,6 @@
-var myName = "Ben";
-var myAge = "56";
-var isMonday = true;
 
-console.log(myName, myAge, isMonday);
-console.log("Im Pringing" + myName)
+function multiplyNumbers(x,y){
+    return x * y;
+}
+var result = multiplyNumbers(5, 10);
+console.log(result);
