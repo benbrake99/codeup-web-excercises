@@ -23,23 +23,22 @@
  */
 //var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 //var randomColor = colors[Math.floor(Math.random() * colors.length)];
-
-function analyzeColor (colorToCheck){
-    console.log(colorToCheck);
-var result;
-    if (colorToCheck == "blue") {
-        result = "blue is the color of the sky.";
-    } else if (colorToCheck == "red") {
-        result = "red is the color of strawberries";
-    } else {
-        result = "I don't know anything that color"
-    }
-    return result;
-
-}
-console.log(analyzeColor(colorToCheck));
-var colorToCheck = prompt("what is your color")
-
+//
+//function analyzeColor (colorToCheck){
+//    console.log(colorToCheck);
+//var result;
+//    if (colorToCheck == "blue") {
+//        result = "blue is the color of the sky.";
+//    } else if (colorToCheck == "red") {
+//        result = "red is the color of strawberries";
+//    } else {
+//        result = "I don't know anything that color"
+//    }
+//    return result;
+//
+//}
+//console.log(analyzeColor(colorToCheck));
+//var colorToCheck = prompt("what is your color")
 
 // Don't change the next two lines!
 // These lines create two variables for you:
@@ -88,6 +87,36 @@ var colorToCheck = prompt("what is your color")
  * return value.
  */
 
+var luckyNumber = Math.floor(Math.random() * 6);
+var price = prompt("Enter the total amount of your purchase ");
+var disPrice = calculateTotal(luckyNumber, price);
+var myDisc = (price - disPrice);
+//var totalAmt =
+
+function calculateTotal(luckyNumber, totalAmt){
+
+    var myResult = luckyNumber;
+    console.log(myResult);
+
+    if (luckyNumber === 0){
+        return (0 * totalAmt);
+    } else if (luckyNumber === 1){
+        return (.10 * totalAmt);
+    }else if (luckyNumber === 2){
+        return (.25 * totalAmt);
+    }else if (luckyNumber === 3){
+        return (.35 * totalAmt);
+    }else if (luckyNumber === 4){
+        return (.50 * totalAmt);
+    }else if (luckyNumber === 5){
+        return (1 * totalAmt);
+    }
+
+    return myResult;
+        }
+console.log(myDisc);
+*/
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -98,7 +127,7 @@ var colorToCheck = prompt("what is your color")
  */
 
 // Generate a random number between 0 and 6
-//var luckyNumber = Math.floor(Math.random() * 6);
+
 
 //uncomment random
 //
