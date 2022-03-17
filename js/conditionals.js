@@ -115,7 +115,10 @@ function calculateTotal(luckyNumber, totalAmt){
     return myResult;
         }
 console.log(myDisc);
-*/
+alert("The original purchase price was:  $" + price);
+alert("your total discount is: $" + (price - myDisc))
+alert("final cost is: $" + myDisc);
+
 
 /**
  * TODO:
