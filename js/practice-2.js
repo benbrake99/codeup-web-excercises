@@ -6,7 +6,7 @@ function multiplyNumbers(x,y){
 var result = multiplyNumbers(5, 10);
 console.log(result);*/
 
-
+let a = prompt("put in a positive or negative number.")
 function testNum (a){
     var result;
     if (a > 0){
@@ -17,6 +17,6 @@ function testNum (a){
     return result;
 
 }
-    console.log(testNum(-2));
+    console.log(testNum(a));
 
 
