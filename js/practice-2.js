@@ -23,7 +23,6 @@ var a = prompt("enter number between 1-100 for 'A'.");
 var b = prompt("enter another number between 1-100 for 'B'.");
 function multiply(a,b){
     var result;
-    console.log(multiply + "before");
     if(a > b){
         result = "a is greater than b"
     } else {
