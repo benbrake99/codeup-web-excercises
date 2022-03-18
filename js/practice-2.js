@@ -50,4 +50,13 @@
 // };
 // var two = increment(1);
 
+function sum(a, b){
+    var result = a + b;
+    var result2 = a * b;
+    console.log(result)
+    console.log(result2)
+    return result;
 
+}
+sum(7,5);
+sum(47, 4);
