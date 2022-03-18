@@ -44,3 +44,10 @@
 //         console.log(pizzaPref + "looks like you want to pick your own!");
 //         break;
 // }
+// var increment = function (x){
+//     return x + 1;
+//
+// };
+// var two = increment(1);
+
+
