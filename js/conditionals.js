@@ -160,6 +160,7 @@ confirm("Would you like to pick a number?");
 var myNumber = prompt("enter a number: ");
 var plus100 = (myNumber + 100);
 var result;
+parseInt(myNumber);
 
 
 if(myNumber % 2 == 0){
