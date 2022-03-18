@@ -60,3 +60,43 @@ function sum(a, b){
 }
 sum(7,5);
 sum(47, 4);
+
+function sum(x,y){
+    var result = x * x;
+    console.log(result);
+    var result2 = y * y;
+    console.log(result2);
+    var result3 = x * y;
+    console.log(result3);
+    var result4 = result2 * result;
+    console.log(result4);
+
+}
+sum(4,5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
