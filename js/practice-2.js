@@ -82,54 +82,62 @@
 //     return x + y;
 // }
 // myFunction(6,5)
+//
+//
+// function go(){
+//     alert('hi');
+//     alert('hey there')
+// }
+// go();
+//
+// function go(name,age){
+//     alert(name);
+//     alert(age);
+// }
+// go(Ben,56);
+// go(Tim, 22);
+// go(Frank,18);
+//
+//
+// var name = 'Ben';
+// var age = 56;
+// function go(){
+//     alert (name);
+//     alert (age);
+// }
+// go();
+//
+// function add(first,second){
+//     return first + second;
+// }
+// var sum = add(1,2);
+// console.log(sum);
+//
+//
+// function go(name,age){
+//     if(age < 21){
+//         return name + " you are too young to drink!"
+//     }else {
+//         return name + " drink responibly"
+//     }
+// }
+// console.log(go(Will, 34));
+//
+// var age = 16;
+// if (age <= 15){
+//     return age + "you are too young to drive"
+// } else {
+//     return "you have probably been drinving for awhile"
+// }
 
-
-function go(){
-    alert('hi');
-    alert('hey there')
+function go() {
+    alert("hello")
 }
+var myList ['car','truck','house','boat', go];
+myList[0];
+myList[4]= 'dog';
+
 go();
-
-function go(name,age){
-    alert(name);
-    alert(age);
-}
-go(Ben,56);
-go(Tim, 22);
-go(Frank,18);
-
-
-var name = 'Ben';
-var age = 56;
-function go(){
-    alert (name);
-    alert (age);
-}
-go();
-
-function add(first,second){
-    return first + second;
-}
-var sum = add(1,2);
-console.log(sum);
-
-
-function go(name,age){
-    if(age < 21){
-        return name + " you are too young to drink!"
-    }else {
-        return name + " drink responibly"
-    }
-}
-console.log(go(Will, 34));
-
-var age = 16;
-if (age <= 15){
-    return age + "you are too young to drive"
-} else {
-    return "you have probably been drinving for awhile"
-}
-
 
 
 
