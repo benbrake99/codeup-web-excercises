@@ -8,21 +8,21 @@
 // }
 
 // Create a function named showMultiplicationTable that accepts a number and console.logs the multiplication table for that number (just multiply by the numbers 1 through 10)
-function showMultiplicationTable(input){
-
-    console.log(input + " x 1 = " + input * 1);
-    console.log(input + " x 2 = " + input * 2);
-    console.log(input + " x 3 = " + input * 3);
-    console.log(input + " x 4 = " + input * 4);
-    console.log(input + " x 5 = " + input * 5);
-    console.log(input + " x 6 = " + input * 6);
-    console.log(input + " x 7 = " + input * 7);
-    console.log(input + " x 8 = " + input * 8);
-    console.log(input + " x 9 = " + input * 9);
-    console.log(input + " x 10 = " + input * 10);
-
-}
-showMultiplicationTable(7);
+// function showMultiplicationTable(input){
+//
+//     console.log(input + " x 1 = " + input * 1);
+//     console.log(input + " x 2 = " + input * 2);
+//     console.log(input + " x 3 = " + input * 3);
+//     console.log(input + " x 4 = " + input * 4);
+//     console.log(input + " x 5 = " + input * 5);
+//     console.log(input + " x 6 = " + input * 6);
+//     console.log(input + " x 7 = " + input * 7);
+//     console.log(input + " x 8 = " + input * 8);
+//     console.log(input + " x 9 = " + input * 9);
+//     console.log(input + " x 10 = " + input * 10);
+//
+// }
+// showMultiplicationTable(7);
 //
 // For example, showMultiplicationTable(7) should output
 //
@@ -37,6 +37,25 @@ showMultiplicationTable(7);
 // 7 x 8 = 56
 // 7 x 9 = 63
 // 7 x 10 = 70
+
+
+// 3.Use a for loop and the code from the previous lessons to generate 10 random numbers between 20 and 200 and output to the console whether each number is odd or even. For example:
+
+
+function showMultiplicationTable(input){
+    for (var i = 0; i < 200; i++);
+
+}
+showMultiplicationTable(7);
+
+//
+//
+//     123 is odd
+// 80 is even
+// 24 is even
+// 199 is odd
+// ...
+
 
 
 
