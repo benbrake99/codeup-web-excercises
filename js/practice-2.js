@@ -99,8 +99,29 @@ go(Tim, 22);
 go(Frank,18);
 
 
+var name = 'Ben';
+var age = 56;
+function go(){
+    alert (name);
+    alert (age);
+}
+go();
+
+function add(first,second){
+    return first + second;
+}
+var sum = add(1,2);
+console.log(sum);
 
 
+function go(name,age){
+    if(age < 21){
+        return name + " you are too young to drink!"
+    }else {
+        return name + " drink responibly"
+    }
+}
+console.log(go(Will, 34));
 
 
 
