@@ -150,15 +150,33 @@
 // }
 // someName("Larry", "Tim");
 
-function addOne(num1,num2) {
-    if (num1 < num2) {
-        console.log((num1) + " the first number is less than " + (num2))
-    } else {
-        console.log((num2) + " the second number is less than " + (num1))
-    }
-}
-    addOne(42,18)
+// function addOne(num1,num2) {
+//     if (num1 < num2) {
+//         console.log((num1) + " the first number is less than " + (num2))
+//     } else {
+//         console.log((num2) + " the second number is less than " + (num1))
+//     }
+// }
+//     addOne(42,18)
 
+// for (var i = 0; i < 5; i++) {
+//     text += "The number is" + i + "<br>";
+// }
+
+// for (statement 1, statement 2, statement 3){
+//     var a = statement 1, statement 2; statement 3;
+//     return a;
+// }
+// a("I like dogs", "I don't like cats", "horses are too big");
+
+// var i = 0;
+// for (i = 0; i < 10; i++){
+//     console.log(i);
+// }
+var i = 10;
+for (i = 10; i > 0; i--){
+    console.log(i);
+}
 
 
 
