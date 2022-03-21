@@ -130,20 +130,25 @@
 //     return "you have probably been drinving for awhile"
 // }
 
-function go() {
-    alert("hello")
+// function go() {
+//     alert("hello")
+// }
+// var myList ['car','truck','house','boat'];
+//
+// myList.forEach(function(value,index) {
+//     console.log(value, index)
+// })
+//
+// go();
+//
+// var = myArray['boat', 'house', ['Tom',Frank']];
+
+function addNum(x,y){
+    var result = x * y;
+    return result;
 }
-var myList ['car','truck','house','boat'];
-
-myList.forEach(function(value,index) {
-    console.log(value, index)
-})
-
-go();
-
-var = myArray['boat', 'house', ['Tom',Frank']];
-
-
+addNum(42, 18);
+console,log(result);
 
 
 
