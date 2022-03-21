@@ -143,12 +143,12 @@
 //
 // var = myArray['boat', 'house', ['Tom',Frank']];
 
-function addNum(x,y){
-    var result = x * y;
-    return result;
+//
+function someName(name1,name2){
+    var a = name1 + " said to " + name2 + "what are you up to?";
+    return a;
 }
-addNum(42, 18);
-console,log(result);
+someName(Jason, Thelma);
 
 
 
