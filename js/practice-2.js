@@ -144,12 +144,20 @@
 // var = myArray['boat', 'house', ['Tom',Frank']];
 
 //
-function someName(name1,name2){
-    var a = name1 + " said to " + name2 + "what are you up to?";
-    return a;
+// function someName(name1,name2){
+//     var a = name1 + " said to " + name2 + "what are you up to?";
+//     return a;
+// }
+// someName("Larry", "Tim");
+
+function addOne(num1,num2) {
+    if (num1 < num2) {
+        console.log((num1) + " the first number is less than " + (num2))
+    } else {
+        console.log((num2) + " the second number is less than " + (num1))
+    }
 }
-someName(Jason, Thelma);
-alert(someName);
+    addOne(42,18)
 
 
 
