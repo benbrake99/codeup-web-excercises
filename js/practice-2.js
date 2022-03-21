@@ -50,29 +50,55 @@
 // };
 // var two = increment(1);
 
-function sum(a, b){
-    var result = a + b;
-    var result2 = a * b;
-    console.log(result)
-    console.log(result2)
-    return result;
+// function sum(a, b){
+//     var result = a + b;
+//     var result2 = a * b;
+//     console.log(result)
+//     console.log(result2)
+//     return result;
+//
+// }
+// sum(7,5);
+// sum(47, 4);
+//
+// function sum(x,y){
+//     var result = x * x;
+//     console.log(result);
+//     var result2 = y * y;
+//     console.log(result2);
+//     var result3 = x * y;
+//     console.log(result3);
+//     var result4 = result2 * result;
+//     console.log(result4);
+//
+// }
+// sum(4,5);
+//
+//
+// function myFunction(x,y){
+//     var x = "hello";
+//     var y = "world";
+//
+//     return x + y;
+// }
+// myFunction(6,5)
 
+
+function go(){
+    alert('hi');
+    alert('hey there')
 }
-sum(7,5);
-sum(47, 4);
+go();
 
-function sum(x,y){
-    var result = x * x;
-    console.log(result);
-    var result2 = y * y;
-    console.log(result2);
-    var result3 = x * y;
-    console.log(result3);
-    var result4 = result2 * result;
-    console.log(result4);
-
+function go(name,age){
+    alert(name);
+    alert(age);
 }
-sum(4,5);
+go(Ben,56);
+go(Tim, 22);
+go(Frank,18);
+
+
 
 
 
