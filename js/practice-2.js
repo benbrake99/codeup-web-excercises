@@ -149,6 +149,7 @@ function someName(name1,name2){
     return a;
 }
 someName(Jason, Thelma);
+alert(someName);
 
 
 
