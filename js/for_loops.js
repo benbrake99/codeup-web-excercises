@@ -129,32 +129,43 @@ Create a file named break_and_continue.js in the js directory.
     Use a loop and the continue statement to output all the odd numbers between 1 and 50, except for the number the user entered.
     Your output should look like this:
 
+//
+// Number to skip is: 27
+//
+// Here is an odd number: 1
+// Here is an odd number: 3
+// Here is an odd number: 5
+// Here is an odd number: 7
+// Here is an odd number: 9
+// Here is an odd number: 11
+// Here is an odd number: 13
+// Here is an odd number: 15
+// Here is an odd number: 17
+// Here is an odd number: 19
+// Here is an odd number: 21
+// Here is an odd number: 23
+// Here is an odd number: 25
+// Yikes! Skipping number: 27
+// Here is an odd number: 29
+// Here is an odd number: 31
+// Here is an odd number: 33
+// Here is an odd number: 35
+// Here is an odd number: 37
+// Here is an odd number: 39
+// Here is an odd number: 41
+// Here is an odd number: 43
+// Here is an odd number: 45
+// Here is an odd number: 47
+// Here is an odd number: 49
 
-Number to skip is: 27
 
-Here is an odd number: 1
-Here is an odd number: 3
-Here is an odd number: 5
-Here is an odd number: 7
-Here is an odd number: 9
-Here is an odd number: 11
-Here is an odd number: 13
-Here is an odd number: 15
-Here is an odd number: 17
-Here is an odd number: 19
-Here is an odd number: 21
-Here is an odd number: 23
-Here is an odd number: 25
-Yikes! Skipping number: 27
-Here is an odd number: 29
-Here is an odd number: 31
-Here is an odd number: 33
-Here is an odd number: 35
-Here is an odd number: 37
-Here is an odd number: 39
-Here is an odd number: 41
-Here is an odd number: 43
-Here is an odd number: 45
-Here is an odd number: 47
-Here is an odd number: 49
+//
+// EXAMPLE OF LOOOP IN A LOOP
 
+
+// for (let i = 0; i <= 10; i++) {
+//     for (let j = 0; j <= 10; j++) {
+//         console.log(`${i} x ${j} = ${i * j}`);
+//     }
+//     console.log("----------------");
+// }

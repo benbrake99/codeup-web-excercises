@@ -1,10 +1,10 @@
 
 
-var i = 1;
-while (i <= 16) {
-    console.log(Math.pow(2,i)); i++
-}
-
+// var i = 1;
+// while (i <= 16) {
+//     console.log(Math.pow(2,i)); i++
+// }
+//
 
 
 
@@ -26,3 +26,38 @@ while (i <= 16) {
 //
 // }
 // triArea()
+
+var count = console.log(Math.floor(Math.random() * (100 - 50 + 1)) + min);
+
+do{
+
+
+}
+
+do{ var clientCones = console.log(Math.floor(Math.random() * (5 - 1 + 1)) + min;) > 1}
+
+var result = conesToSell / clientCones;
+console.log(result)
+{while (conesToSell; clientCones / conesToSell) clientCones++}
+
+
+
+
+
+
+// #4
+//
+// function generatePyramid() {
+//     var totalNumberofRows = 10;
+//     var output = '';
+//     for (var i = 1; i < totalNumberofRows; i++) {
+//         for (var j = 1; j <= i; j++) {
+//             output += i;
+//         }
+//         console.log(output);
+//         output = '';
+//     }
+// }
+
+
+
