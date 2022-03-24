@@ -6,39 +6,29 @@
      * Create an array of 4 people's names and store it in a variable called
      * 'names'.
      */
-    var names = ['Jim','Bob', 'Frank', 'Tom'];
-    // console.log(names.length);
-   // console.log(names);
-   // console.log(names);
-   //  console.log (names[0]);
-   //  console.log (names[1]);
-   //  console.log (names[2]);
-   //  console.log (names[3]);
+
+
     /**
      * TODO:
      * Create a log statement that will log the number of elements in the names
      * array.
      */
 
+
     /**
      * TODO:
      * Create log statements that will print each of the names individually by
      * accessing each element's index.
      */
-
-
     /**
      * TODO:
      * Write some code that uses a for loop to log every item in the names
      * array.
      */
-    for
-
     /**
      * TODO:
      * Refactor your above code to use a `forEach` loop
      */
-
     /**
      * TODO:
      * Create the following three functions, each will accept an array and
@@ -52,5 +42,45 @@
      *  > second([1, 2, 3, 4, 5]) // returns 2
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
+
+
+
+    var names = ['Jim','Bob', 'Frank', 'Tom','Henry'];
+    console.log(names = []);
+
+    console.log(names.length);
+    console.log(names);
+    console.log(names);
+    console.log (names[0]);
+    console.log (names[1]);
+    console.log (names[2]);
+    console.log (names[3]);
+    console.log(names.indexOf("Jim"));
+    console.log(names.indexOf("Bob"));
+    console.log(names.indexOf("Frank"));
+    console.log(names.indexOf("Tom"));
+    console.log(names.indexOf("Henry"));
+
+
+    for(var i = 0; i <= 100; i++)
+        console.log(i),
+
+
+    for(var element of names) {
+        console.log(element);
+    }
+    names.forEach(element => console.log(element));
+
+    var numbers = [1,2,3,4,5];
+    numbers.forEach(function (elem){
+        if(elem === 1){
+            console.log(elem + " return 1 ");
+        } if(elem === 2){
+            console.log(elem + " return 2 ");
+        } if(elem === 5){
+            console.log(elem + " return 5 ");
+        }
+    });
+
 
 })();
