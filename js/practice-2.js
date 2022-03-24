@@ -234,6 +234,33 @@
 //     }
 // });
 
+/**
+ * TODO:
+ * Read each console log below, and write some javascript code to perform
+ * the step that it describes
+ */
+
+var planets = [
+    'Mercury',
+    'Venus',
+    'Earth',
+    'Mars',
+    'Jupiter',
+    'Saturn',
+    'Uranus',
+    'Neptune'
+
+
+
+];
+
+planets.unshift('sun');
+planets.push('Pluto');
+console.log(planets);
+console.log('Removing "The Sun" from the beginning of the planets array.');
+console.log(planets);
+
+
 
 
 
