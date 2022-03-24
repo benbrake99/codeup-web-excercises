@@ -258,6 +258,9 @@ planets.unshift('sun');
 planets.push('Pluto');
 console.log(planets);
 console.log('Removing "The Sun" from the beginning of the planets array.');
+planets.shift();
+console.log(planets);
+planets.pop();
 console.log(planets);
 
 
