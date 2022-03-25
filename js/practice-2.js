@@ -239,38 +239,49 @@
  * Read each console log below, and write some javascript code to perform
  * the step that it describes
  */
+//
+// var planets = [
+//     'Mercury',
+//     'Venus',
+//     'Earth',
+//     'Mars',
+//     'Jupiter',
+//     'Saturn',
+//     'Uranus',
+//     'Neptune'
+//
+//
+//
+// ];
+//
+// planets.unshift('sun');
+// planets.push('Pluto');
+// console.log(planets);
+// console.log('Removing "The Sun" from the beginning of the planets array.');
+// planets.shift();
+// console.log(planets);
+// planets.pop();
+// console.log(planets);
+// console.log('Finding and logging the index of "Earth" in the planets array.');
+// var index = planets.indexOf('Earth');
+// console.log("Earth is located " + index);
+// console.log("Reversing the order of the planets array.");
+// planets.reverse();
+// console.log(planets);
+// console.log("Sorting the planets array.");
+// planets.sort();
+// console.log(planets);
+// Imagine the supplied array is like a pack of cards. Write a function to shuffle an array in to a completely new and entirely random order, much like shuffling a pack of cards.
+//     example input: [2,4,6,8]
+// expected output: [4,2,8,6];
 
-var planets = [
-    'Mercury',
-    'Venus',
-    'Earth',
-    'Mars',
-    'Jupiter',
-    'Saturn',
-    'Uranus',
-    'Neptune'
+
+var numShuffle = [2,4,6,8];
+var shuffleArray = numShuffle.sort((a,b) => 0.5 - Math.random());
+console.log(numShuffle);
 
 
 
-];
-
-planets.unshift('sun');
-planets.push('Pluto');
-console.log(planets);
-console.log('Removing "The Sun" from the beginning of the planets array.');
-planets.shift();
-console.log(planets);
-planets.pop();
-console.log(planets);
-console.log('Finding and logging the index of "Earth" in the planets array.');
-var index = planets.indexOf('Earth');
-console.log("Earth is located " + index);
-console.log("Reversing the order of the planets array.");
-planets.reverse();
-console.log(planets);
-console.log("Sorting the planets array.");
-planets.sort();
-console.log(planets);
 
 
 
