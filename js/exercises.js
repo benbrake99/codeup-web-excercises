@@ -139,9 +139,15 @@ The previous was from variables section that was completed in google chrome and 
     `var sample = "Hello Codeup";`
 
 - Use `.length` to find the number of characters in the string. = 12
+
 - Try to make the sample string all upper or all lower case.
+=   sample.toUpperCase();'HELLO CODEUP'
+
 - Update the variable sample via concatenation so that it contains "Hello Codeup Students".
-- Replace "Students" with "Class".
+    sample = sample + " Students" 'Hello Codeup Students'
+
+- Replace "Students" with "Class". console.log(sample.replace('Students', 'Class'));  Hello Codeup Class
+
 - Find the index of "c" using `.indexOf()`. What do you observe?
     - Find the index of "C" using `.indexOf()`.
 - Retrieve a substring that contains only the word "Codeup" by using `indexOf()` and `substring()`.
