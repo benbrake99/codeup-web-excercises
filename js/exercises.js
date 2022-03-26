@@ -156,4 +156,47 @@ The previous was from variables section that was completed in google chrome and 
 // console.log(sample.substring(6,13));     Codeup
 
 
+// 3. Exercise
+
+// You have rented some movies for your kids: The little mermaid (for 3 days), Brother
+// Bear (for 5 days, they love it), and Hercules (1 day, you don't know yet if they're going
+// to like it). If price for a movie per day is $3, how much will you have to pay?
+
+// var lilMerm = 3 * 3;
+// var brownBear = 5 * 3;
+// var herc = 1 * 3;
+// var sum = lilMerm + brownBear + herc;
+// console.log(lilMerm);
+// console.log(brownBear);
+// console.log(herc);
+// console.log(sum);
+// 9
+// 15
+// 3
+// 27
+
+Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
+'Facebook, they pay you a different rate per hour. Google pays $400, Amazon $380,' +
+' and Facebook $350. How much will you receive in payment for this week? You ' +
+'worked 10 hours for Facebook, 6 hours for Google and 4 hours for Amazon.
+
+//     var google = 400 * 6;
+//     var amazon = 380 * 4;
+//     var facebook = 350 * 10;
+//     var workSum = google + amazon + facebook;
+//     console.log(google + " google pay");
+//     console.log(amazon + " amazon pay");
+//     console.log(facebook + " facebook pay");
+//     console.log(workSum + " total pay");
+//
+// 2400 google pay
+// 1520 amazon pay
+// 3500 facebook pay
+// 7420 total pay
+
+//
+// A student can be enrolled in a class only if the class is not full and the class schedule
+// does not conflict with her current schedule.
+
+
 
