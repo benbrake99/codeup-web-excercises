@@ -224,6 +224,7 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 // var premMem = prompt("Are you a 'Premium Member'?  Enter 'yes' or 'no'.");
 // if(premMem == "yes") {
 //     console.log("Thank you for being a valued customer and enjoy your special discount")
+// break;
 // }else if (premMember == 'no'){
 //     alert("Premium Members always enjoy greater discounts.");
 //     var nonPrem = prompt("Are you purchasing 2 or more items before July 1, 2022?")
@@ -239,16 +240,24 @@ Next Problem
 Use the following code to follow the instructions below:
 
 
-    var username = 'codeup';
-var password = 'notastrongpassword';
-Create a variable that holds a boolean value for each of the following conditions:
 
+Create a variable that holds a boolean value for each of the following conditions:
     the password must be at least 5 characters
 the password must not include the username
 the username must be no more than 20 characters
 neither the username or password can start or end with whitespace
 
 
+var username = 'codeup';
+var password = 'notastrongpassword';
+
+
+if(username.length <=  4 || >= 20) {
+    alert("Username must be more than 5 characters, but less than 20. Please try again.")
+    return false;
+} else if (username == password){
+    alert("Your password cannot be the same as your username. Please try again.  ")
+}
 
 
 
