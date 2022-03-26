@@ -47,88 +47,89 @@
 
 
            // Working With Data Types, Operators, and Variables Exercise
+//
+// 1.1. For each of the following code blocks, read the code and predict what the result of evaluating it would be, then execute the statement(s) in the Chrome console.
+//
+//     `var a = 1;             a = 1
+//     var b = a++;            b = 1
+//     var c = ++a;            c = 3
+//     // what is the value of a, b, and c?`
+//
+//     `var d = "hello";       = "hello"
+//     var e = false;          = false
+//
+//     d++;                    =NaN
+//     e++;`                   =0
+//
+//
+//     `var perplexed; // perplexed is undefined (no value is assigned)
+//     perplexed + 2;`         =NaN
+//
+//     `var price = 2.7;       = 2.7
+//     price.toFixed(2);`      = 2.70
+//
+//
+// `var price = "2.7";         = "2.7"
+//     price.toFixed(2);`      = error
+//
+//     `isNaN(0)               = false
+//
+//     isNaN(1)                = error
+//
+//     isNaN("")               = false
+//
+//     isNaN("string")         = true
+//
+//     isNaN("0")              = false
+//
+//     isNaN("1")              = false
+//
+//     isNaN("3.145")          = false
+//
+//     isNaN(Number.MAX_VALUE) = true
+//
+//     isNaN(Infinity)         = false
+//
+//     isNaN("true")           = true
+//
+//     isNaN(true)             = false
+//
+//     isNaN("false")          = true
+//
+//     isNaN(false)            = false
+//
+//     // to illustrate why the isNaN() function is needed:
+//     NaN == NaN`             = because this only clarifies that they have the same value.
+//
+//     `!true                  = to clarify boolean doesn't clarify type
+//
+//     !false                 = to clarify boolean doesn't clarify type
+//
+//     !!true                  = to clarify boolean doesn't clarify type
+//
+//     !!false                 = to clarify boolean doesn't clarify type
+//
+//     !!0                     = to clarify boolean doesn't clarify type
+//
+//     !!-0                    = to clarify boolean doesn't clarify type
+//
+//     !!1                     = to clarify boolean doesn't clarify type
+//
+//     !!-1                    = to clarify boolean doesn't clarify type
+//
+//     !!0.1                   = to clarify boolean doesn't clarify type
+//
+//     !!"hello"               = to clarify boolean doesn't clarify type
+//
+//     !!""                    = to clarify boolean doesn't clarify type
+//
+//     !!''                    = to clarify boolean doesn't clarify type
+//
+//     !!"false"               = to clarify boolean doesn't clarify type
+//
+//     !!"0"`                  = to clarify boolean doesn't clarify type
 
-1.1. For each of the following code blocks, read the code and predict what the result of evaluating it would be, then execute the statement(s) in the Chrome console.
-
-    `var a = 1;             a = 1
-    var b = a++;            b = 1
-    var c = ++a;            c = 3
-    // what is the value of a, b, and c?`
-
-    `var d = "hello";       = "hello"
-    var e = false;          = false 
-    
-    d++;                    =NaN
-    e++;`                   =0
-
-
-    `var perplexed; // perplexed is undefined (no value is assigned)
-    perplexed + 2;`         =NaN
-
-    `var price = 2.7;       = 2.7
-    price.toFixed(2);`      = 2.70
-
-
-`var price = "2.7";         = "2.7"
-    price.toFixed(2);`      = error
-
-    `isNaN(0)               = false
-    
-    isNaN(1)                = error
-    
-    isNaN("")               = false
-    
-    isNaN("string")         = true
-    
-    isNaN("0")              = false
-    
-    isNaN("1")              = false
-    
-    isNaN("3.145")          = false
-    
-    isNaN(Number.MAX_VALUE) = true
-    
-    isNaN(Infinity)         = false
-    
-    isNaN("true")           = true
-    
-    isNaN(true)             = false
-    
-    isNaN("false")
-    
-    isNaN(false)
-    
-    // to illustrate why the isNaN() function is needed:
-    NaN == NaN`
-
-    `!true
-    
-    !false
-    
-    !!true
-    
-    !!false
-    
-    !!0
-    
-    !!-0
-    
-    !!1
-    
-    !!-1
-    
-    !!0.1
-    
-    !!"hello"
-    
-    !!""
-    
-    !!''
-    
-    !!"false"
-    
-    !!"0"`
-
+The previous was from variables section that was completed in google chrome and asked to run again in "working with data types, operators, and variables.."
 
 
 
