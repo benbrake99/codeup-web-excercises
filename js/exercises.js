@@ -132,6 +132,19 @@
 The previous was from variables section that was completed in google chrome and asked to run again in "working with data types, operators, and variables.."
 
 
+## Exercises
+
+1. Execute the following statement in the Chrome JavaScript console and then follow the directions below.
+
+    `var sample = "Hello Codeup";`
+
+- Use `.length` to find the number of characters in the string. = 12
+- Try to make the sample string all upper or all lower case.
+- Update the variable sample via concatenation so that it contains "Hello Codeup Students".
+- Replace "Students" with "Class".
+- Find the index of "c" using `.indexOf()`. What do you observe?
+    - Find the index of "C" using `.indexOf()`.
+- Retrieve a substring that contains only the word "Codeup" by using `indexOf()` and `substring()`.
 
 
 
