@@ -63,35 +63,36 @@
 
 
     `var perplexed; // perplexed is undefined (no value is assigned)
-    perplexed + 2;`
+    perplexed + 2;`         =NaN
 
-    `var price = 2.7;
-    price.toFixed(2);`
+    `var price = 2.7;       = 2.7
+    price.toFixed(2);`      = 2.70
 
-    `var price = "2.7";
-    price.toFixed(2);`
 
-    `isNaN(0)
+`var price = "2.7";         = "2.7"
+    price.toFixed(2);`      = error
+
+    `isNaN(0)               = false
     
-    isNaN(1)
+    isNaN(1)                = error
     
-    isNaN("")
+    isNaN("")               = false
     
-    isNaN("string")
+    isNaN("string")         = true
     
-    isNaN("0")
+    isNaN("0")              = false
     
-    isNaN("1")
+    isNaN("1")              = false
     
-    isNaN("3.145")
+    isNaN("3.145")          = false
     
-    isNaN(Number.MAX_VALUE)
+    isNaN(Number.MAX_VALUE) = true
     
-    isNaN(Infinity)
+    isNaN(Infinity)         = false
     
-    isNaN("true")
+    isNaN("true")           = true
     
-    isNaN(true)
+    isNaN(true)             = false
     
     isNaN("false")
     
