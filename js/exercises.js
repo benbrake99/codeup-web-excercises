@@ -199,4 +199,62 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 // does not conflict with her current schedule.
 
 
+// alert("click ok, to see if there is enough seats to enroll in class.");
+// for (var i = 1; i <= 25; i++) {
+//     var ranNum = Math.floor(Math.random() * 25);
+// } console.log(ranNum);
+// if(ranNum >=25) {
+//     console.log("Sorry, there are no seats available to enroll.")
+// }
+// var availSchedule = prompt ("Please enter 'yes' if you have a sceduling conflict with class times from 10am - 11am. Enter 'no' if you do not have a sceduling problem between those times. ")
+// if(availSchedule == "yes"){
+//     console.log("please try back next semester.")
+// } else {
+//     console.log("We look forward to seeing you the first day of class.")
+// }
+
+
+
+//Next problem
+
+
+// A product offer can be applied only if a person buys more than 2 items, and the offer has not expired.
+// Premium members do not need to buy a specific amount of products.
+//
+// var premMem = prompt("Are you a 'Premium Member'?  Enter 'yes' or 'no'.");
+// if(premMem == "yes") {
+//     console.log("Thank you for being a valued customer and enjoy your special discount")
+// }else if (premMember == 'no'){
+//     alert("Premium Members always enjoy greater discounts.");
+//     var nonPrem = prompt("Are you purchasing 2 or more items before July 1, 2022?")
+// } if(nonPrem == 'yes'){
+//     console.log("Thank you for your multiple item purchase and enjoy your discount.")
+// } else {
+//     console.log("Sorry, your item will be full price.")
+// }
+
+
+Next Problem
+
+Use the following code to follow the instructions below:
+
+
+    var username = 'codeup';
+var password = 'notastrongpassword';
+Create a variable that holds a boolean value for each of the following conditions:
+
+    the password must be at least 5 characters
+the password must not include the username
+the username must be no more than 20 characters
+neither the username or password can start or end with whitespace
+
+
+
+
+
+
+
+
+
+
 
