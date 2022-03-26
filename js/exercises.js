@@ -48,7 +48,85 @@
 
            // Working With Data Types, Operators, and Variables Exercise
 
+1.1. For each of the following code blocks, read the code and predict what the result of evaluating it would be, then execute the statement(s) in the Chrome console.
 
+    `var a = 1;             a = 1
+    var b = a++;            b = 1
+    var c = ++a;            c = 3
+    // what is the value of a, b, and c?`
+
+    `var d = "hello";       = "hello"
+    var e = false;          = false 
+    
+    d++;                    =NaN
+    e++;`                   =0
+
+
+    `var perplexed; // perplexed is undefined (no value is assigned)
+    perplexed + 2;`
+
+    `var price = 2.7;
+    price.toFixed(2);`
+
+    `var price = "2.7";
+    price.toFixed(2);`
+
+    `isNaN(0)
+    
+    isNaN(1)
+    
+    isNaN("")
+    
+    isNaN("string")
+    
+    isNaN("0")
+    
+    isNaN("1")
+    
+    isNaN("3.145")
+    
+    isNaN(Number.MAX_VALUE)
+    
+    isNaN(Infinity)
+    
+    isNaN("true")
+    
+    isNaN(true)
+    
+    isNaN("false")
+    
+    isNaN(false)
+    
+    // to illustrate why the isNaN() function is needed:
+    NaN == NaN`
+
+    `!true
+    
+    !false
+    
+    !!true
+    
+    !!false
+    
+    !!0
+    
+    !!-0
+    
+    !!1
+    
+    !!-1
+    
+    !!0.1
+    
+    !!"hello"
+    
+    !!""
+    
+    !!''
+    
+    !!"false"
+    
+    !!"0"`
 
 
 
