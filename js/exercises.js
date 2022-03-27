@@ -261,7 +261,48 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 // else if(username )
 
 
+//Next section Functions
 
+/**
+ * TODO:
+ * Create a function called 'sayHello' that takes a parameter 'name'.
+ * When called, the function should return a message that says hello to the passed in name.
+ *
+ * Example
+ * > sayHello("codeup") // returns "Hello, codeup!"
+ */
+
+// function sayHello(name){
+//     var howdy = "Hello " + name;
+//     return howdy;
+//
+// }
+// sayHello("Codeup");
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * TODO:
+ * Call the function 'sayHello' and pass your name as a string literal argument.
+ * Store the result of the function call in a variable named 'helloMessage'.
+ *
+ * console.log 'helloMessage' to check your work
+ */
+
+/**
+ * TODO:
+ * Store your name as a string in a variable named 'myName', and pass that
+ * variable to the 'sayHello' function. You should see the same output in the
+ * console.
+ */
 
 
 
