@@ -325,24 +325,6 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 //
 // }
 // sayHello(myName);
-
-
-// Don't modify the following line, it generates a random number between 1 and 3
-// and stores it in a variable named random
-var random = Math.floor((Math.random() * 3) + 1);
-console.log(random);
-
-function isTwo(num){
-var num = random;
-    if(num === 2){
-        console.log("yes, the number is " + num)
-    } if(num !== 2) {
-        console.log("The random number is not two, it is: " + num)
-    }
-}
-
-
-
 /**
  * TODO:
  * Create a function called 'isTwo' that takes a number as a parameter.
@@ -361,6 +343,62 @@ var num = random;
  * number)
  */
 
+
+// Don't modify the following line, it generates a random number between 1 and 3
+// and stores it in a variable named random
+
+
+// var random = Math.floor((Math.random() * 3) + 1);
+// console.log(random);
+// var num = random;
+//
+// function isTwo(num){
+//
+//     if(random === 2){
+//         alert("returns 'true'")
+//     } if (random !== 2) {
+//         alert("returns 'False'")
+//     }
+// }
+// isTwo(random);
+//
+function calculateTip()
+
+
+
+/**
+ * TODO:
+ * Create a function named 'calculateTip' to calculate a tip on a bill at a
+ * restaurant. The function should accept a tip percentage and the total of the
+ * bill, and return the amount to tip
+ *
+ * Examples:
+ * > calculateTip(0.20, 20) // returns 4
+ * > calculateTip(0.25, 25.50) // returns 6.375
+ * > calculateTip(0.15, 33.42) // returns 5.013
+ */
+
+/**
+ * TODO:
+ * Use prompt and alert in combination with your calculateTip function to
+ * prompt the user for the bill total and a percentage they would like to tip,
+ * then display the dollar amount they should tip
+ */
+
+/**
+ * TODO:
+ * Create a function named `applyDiscount`. This function should accept a price
+ * (before a discount is applied), and a discount percentage (a number between 0
+ * and 1). It should return the result of applying the discount to the original
+ * price.
+ *
+ * Example:
+ * > var originalPrice = 100;
+ * > var discountPercent = .2; // 20%
+ * > applyDiscount(originalPrice, discountPercent) // 80
+ *
+ * > applyDiscount(45.99, 0.12) // 40.4712
+ */
 
 
 
