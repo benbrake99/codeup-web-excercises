@@ -234,30 +234,33 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 //     console.log("Sorry, your item will be full price.")
 // }
 
+//
+// Next Problem
+//
+// Use the following code to follow the instructions below:
+//
+//
+//
+// Create a variable that holds a boolean value for each of the following conditions:
+//     the password must be at least 5 characters
+// the password must not include the username
+// the username must be no more than 20 characters
+// neither the username or password can start or end with whitespace
+//
+//
+// var username = 'codeup';
+// var password = 'notastrongpassword';
+// username.trim ();
+// password.trim ();
+//
+// if(username.length <=  4 || >= 20) {
+//     return false;
+// }else if((username == password){
+//     return false;
+// }
+// else if(username )
 
-Next Problem
 
-Use the following code to follow the instructions below:
-
-
-
-Create a variable that holds a boolean value for each of the following conditions:
-    the password must be at least 5 characters
-the password must not include the username
-the username must be no more than 20 characters
-neither the username or password can start or end with whitespace
-
-
-var username = 'codeup';
-var password = 'notastrongpassword';
-
-
-if(username.length <=  4 || >= 20) {
-    alert("Username must be more than 5 characters, but less than 20. Please try again.")
-    return false;
-} else if (username == password){
-    alert("Your password cannot be the same as your username. Please try again.  ")
-}
 
 
 
