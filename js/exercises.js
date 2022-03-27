@@ -273,13 +273,13 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
  */
 
 
-**
-* TODO:
-* Call the function 'sayHello' and pass your name as a string literal argument.
-* Store the result of the function call in a variable named 'helloMessage'.
-*
-* console.log 'helloMessage' to check your work
-*/
+// **
+// * TODO:
+// * Call the function 'sayHello' and pass your name as a string literal argument.
+// * Store the result of the function call in a variable named 'helloMessage'.
+// *
+// * console.log 'helloMessage' to check your work
+// */
 
 /**
  * TODO:
@@ -362,10 +362,6 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
 // }
 // isTwo(random);
 //
-function calculateTip()
-
-
-
 /**
  * TODO:
  * Create a function named 'calculateTip' to calculate a tip on a bill at a
@@ -377,6 +373,19 @@ function calculateTip()
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+// function calculateTip(tBill,percent){
+//
+// var tipAmt = tBill * percent;
+//
+// console.log("Your total bill is: $" + tBill + " percent of bill for tip: " + percent +  " your tip amount is $" + tipAmt)
+//
+// }
+// calculateTip(20,.20);
+// calculateTip(25.50,.25);
+// calculateTip(33.42,.15);
+
+
+
 
 /**
  * TODO:
@@ -384,6 +393,18 @@ function calculateTip()
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
+var tBill = prompt("")
+
+function calculateTip(tBill,percent){
+var tipAmt = tBill * percent;
+console.log("Your total bill is: $" + tBill + " percent of bill for tip: " + percent +  " your tip amount is $" + tipAmt)
+
+}
+calculateTip(20,.20);
+calculateTip(25.50,.25);
+calculateTip(33.42,.15);
+
+
 
 /**
  * TODO:
