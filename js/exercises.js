@@ -272,22 +272,21 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
 
-// function sayHello(name){
-//     var howdy = "Hello " + name;
-//     return howdy;
-//
-// }
-// sayHello("Codeup");
 
+**
+* TODO:
+* Call the function 'sayHello' and pass your name as a string literal argument.
+* Store the result of the function call in a variable named 'helloMessage'.
+*
+* console.log 'helloMessage' to check your work
+*/
 
-
-
-
-
-
-
-
-
+/**
+ * TODO:
+ * Store your name as a string in a variable named 'myName', and pass that
+ * variable to the 'sayHello' function. You should see the same output in the
+ * console.
+ */
 
 /**
  * TODO:
@@ -303,6 +302,69 @@ Suppose you're working as a contractor for 3 companies: Google, Amazon and ' +
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
+
+// function sayHello(name){
+//     var howdy = "Hello " + name;
+//     return howdy;
+//
+// }
+// sayHello("Codeup");
+
+// function sayHello(yourName){
+//     var helloMessage = "Hello " + yourName;
+//     return helloMessage;
+//
+// }
+// sayHello("Ben");
+
+// var myName = "Ben";
+//
+// function sayHello(myName){
+//     var helloMessage = "Hello " + myName;
+//     return helloMessage;
+//
+// }
+// sayHello(myName);
+
+
+// Don't modify the following line, it generates a random number between 1 and 3
+// and stores it in a variable named random
+var random = Math.floor((Math.random() * 3) + 1);
+console.log(random);
+
+function isTwo(num){
+var num = random;
+    if(num === 2){
+        console.log("yes, the number is " + num)
+    } if(num !== 2) {
+        console.log("The random number is not two, it is: " + num)
+    }
+}
+
+
+
+/**
+ * TODO:
+ * Create a function called 'isTwo' that takes a number as a parameter.
+ * The function should return a boolean value based on whether or not the passed
+ * number is the number 2.
+ *
+ * Example
+ * > isTwo(1) // returns false
+ * > isTwo(2) // returns true
+ * > isTwo(3) // returns false
+ *
+ * Call the function 'isTwo' passing the variable 'random' as a argument.
+ *
+ * console.log *outside of the function* to check your work (you should see a
+ * different result everytime you refresh the page if you are using the random
+ * number)
+ */
+
+
+
+
+
 
 
 
