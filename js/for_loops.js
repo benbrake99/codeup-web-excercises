@@ -88,12 +88,12 @@
 //
 // }
 
-// for(var i=1; i<=9; i++){
-//     var Num='';
-//     for(var j=0; j<i; j++){
-//         Num += i;
-//     }
-//     console.log(Num) }
+for(var i=1; i<=9; i++){
+    var Num='';
+    for(var j=0; j<i; j++){
+        Num += i;
+    }
+    console.log(Num) }
 
 // Create a for loop that uses console.log to create the output shown below.
 //
