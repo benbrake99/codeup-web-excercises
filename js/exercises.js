@@ -554,6 +554,46 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * return value.
  */
 
+
+// Generate a random number between 0 and 6
+var luckyNumber = Math.floor(Math.random() * 6);
+var price = prompt("Enter the total amount of your purchase ");
+var disPrice = (luckyNumber, price);
+var myDisc = (price - disPrice);
+var totalAmt =
+
+    function calculateTotal(luckyNumber, totalAmt){
+
+        var myResult = luckyNumber;
+        console.log(myResult);
+
+        if (luckyNumber === 0){
+            return (0 * totalAmt);
+        } else if (luckyNumber === 1){
+            return (.10 * totalAmt);
+        }else if (luckyNumber === 2){
+            return (.25 * totalAmt);
+        }else if (luckyNumber === 3){
+            return (.35 * totalAmt);
+        }else if (luckyNumber === 4){
+            return (.50 * totalAmt);
+        }else if (luckyNumber === 5){
+            return (1 * totalAmt);
+        }
+
+        return myResult;
+    }
+console.log(myDisc);
+alert("The original purchase price was:  $" + price);
+alert("your total discount is: $" + (price - myDisc))
+alert("final cost is: $" + myDisc);
+
+
+
+
+
+
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -564,7 +604,37 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  */
 // Generate a random number between 0 and 6
 // var luckyNumber = Math.floor(Math.random() * 6);
+var luckyNumber = Math.floor(Math.random() * 6);
+var price = prompt("Enter the total amount of your purchase ");
+var disPrice = (luckyNumber, price);
+var myDisc = (price - disPrice);
+var totalAmt =
 
+    function calculateTotal(luckyNumber, totalAmt){
+
+        var myResult = luckyNumber;
+        console.log(myResult);
+
+        if (luckyNumber === 0){
+            return (0 * totalAmt);
+        } else if (luckyNumber === 1){
+            return (.10 * totalAmt);
+        }else if (luckyNumber === 2){
+            return (.25 * totalAmt);
+        }else if (luckyNumber === 3){
+            return (.35 * totalAmt);
+        }else if (luckyNumber === 4){
+            return (.50 * totalAmt);
+        }else if (luckyNumber === 5){
+            return (1 * totalAmt);
+        }
+
+        return myResult;
+    }
+console.log(myDisc);
+alert("The original purchase price was:  $" + price);
+alert("your total discount is: $" + (price - myDisc))
+alert("final cost is: $" + myDisc);
 /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
@@ -578,13 +648,18 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Do *NOT* display any of the above information
  * if the user enters a value that is not of the number data type.
  * Instead, use an alert to inform them of the incorrect input data type.
- *
- *
+
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
 
 
+
+- whether the number is even or odd
+- what the number plus 100 is
+- if the number is negative or positive
+
+var okNum = confirm("Click OK if you would like to enter a number");
 
 
 

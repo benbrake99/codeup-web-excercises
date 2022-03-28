@@ -104,13 +104,13 @@
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
-/*
+
 
 var luckyNumber = Math.floor(Math.random() * 6);
 var price = prompt("Enter the total amount of your purchase ");
-var disPrice = calculateTotal(luckyNumber, price);
+var disPrice = (luckyNumber, price);
 var myDisc = (price - disPrice);
-//var totalAmt =
+var totalAmt =
 
 function calculateTotal(luckyNumber, totalAmt){
 
@@ -138,7 +138,7 @@ alert("The original purchase price was:  $" + price);
 alert("your total discount is: $" + (price - myDisc))
 alert("final cost is: $" + myDisc);
 
-*/
+
 
 /**
  * TODO:
