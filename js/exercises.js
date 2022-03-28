@@ -659,7 +659,29 @@ alert("final cost is: $" + myDisc);
 - what the number plus 100 is
 - if the number is negative or positive
 
-var okNum = confirm("Click OK if you would like to enter a number");
+var text = window.confirm("Press a button! \nEither Ok or Cancel.");
+var pickNum = window.prompt("pick a number");
+
+
+function numPicked(pickNum) {
+    console.log(parseInt(pickNum));
+    var result = pickNum %2;
+    console.log(result);
+
+    if (result === 0) {
+        console.log("number is even")
+    }else {
+        console.log("number is negative")
+    }
+    console.log(pickNum + 100);
+}
+numPicked();
+
+
+
+
+
+
 
 
 
