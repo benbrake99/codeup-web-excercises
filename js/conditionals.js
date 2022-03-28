@@ -21,24 +21,26 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
-//var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-//var randomColor = colors[Math.floor(Math.random() * colors.length)];
+// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+// var randomColor = colors[Math.floor(Math.random() * colors.length)];
+// console.log(randomColor);
 //
-//function analyzeColor (colorToCheck){
-//    console.log(colorToCheck);
-//var result;
-//    if (colorToCheck == "blue") {
-//        result = "blue is the color of the sky.";
-//    } else if (colorToCheck == "red") {
-//        result = "red is the color of strawberries";
+// function analyzeColor (colorToCheck){
+//     var result;
+//
+//    if(colorToCheck == 'blue'){
+//        alert("blue is the color of the sky.");
+//    } else if (colorToCheck == 'red') {
+//        alert("red is the color of strawberries");
 //    } else {
-//        result = "I don't know anything that color"
+//        alert("I don't know anything that color")
 //    }
-//    return result;
 //
-//}
-//console.log(analyzeColor(colorToCheck));
-//var colorToCheck = prompt("what is your color")
+// }
+// console.log(analyzeColor(randomColor));
+//
+
+
 
 // Don't change the next two lines!
 // These lines create two variables for you:
