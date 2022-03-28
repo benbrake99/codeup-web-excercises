@@ -21,6 +21,11 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
+/**
+ * TODO:
+ * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
+ * You should see a different message every time you refresh the page
+ */
 // var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 // var randomColor = colors[Math.floor(Math.random() * colors.length)];
 // console.log(randomColor);
@@ -49,16 +54,27 @@
 //                  will contain a different color every time the page loads)
 //var colors = ['red', 'orange', 'yellow', 'green', 'indigo', 'violet'];
 //var randomColor = colors[Math.floor(Math.random() * colors.length)];
-/**
- * TODO:
- * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
- * You should see a different message every time you refresh the page
- */
+
 
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
+// var colorPick = prompt("pick a color. blue, red, cyan");
+// console.log(colorPick);
+// switch(colorPick){
+//     case "blue":
+//         alert("blue is the color of the sky");
+//         break;
+//     case "red":
+//         alert("roses are red");
+//         break;
+//     case "cyan":
+//         alert("I don't know anything that color");
+//         break;
+//     default:
+//         alert("That color is not a choice")
+// }
 
 /**
  * TODO:

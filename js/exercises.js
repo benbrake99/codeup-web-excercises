@@ -509,6 +509,21 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
+// var colorPick = prompt("pick a color. blue, red, cyan");
+// console.log(colorPick);
+// switch(colorPick){
+//     case "blue":
+//         alert("blue is the color of the sky");
+//         break;
+//     case "red":
+//         alert("roses are red");
+//         break;
+//     case "cyan":
+//         alert("I don't know anything that color");
+//         break;
+//     default:
+//         alert("That color is not a choice")
+// }
 
 /**
  * TODO:
