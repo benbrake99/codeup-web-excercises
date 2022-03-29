@@ -214,6 +214,10 @@ var tipTotal = tipCalc();
 console.log(tipTotal);
 
 
+
+
+
+
 */
 
 /** */
@@ -251,3 +255,28 @@ if (name == Laura){
 */
 
 
+var myCarObj = {
+    year: 2009
+    make; "jeep":
+    model: "Patriot":
+    genre: "country"
+    radioStation: ['v100', KCLU, KSNT,]:
+
+
+
+}
+var benObject = {
+    myName: 'Ben'
+    born: 'Kansas',
+    favoriteAnimal: 'Dogs',
+    cityName: 'Manhattan',
+    sportsTeams: 'KansasState',
+    age: 56,
+
+
+
+    youngAge function(){
+        return benObject - 10,
+    }
+console.log(benObject.youngAge()),
+}

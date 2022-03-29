@@ -169,3 +169,46 @@ for (let i = 0; i <= 10; i++) {
     }
     console.log("----------------");
 }
+
+
+ var names =['john', 'bob', 'tim', 'mary'];
+for(name of names){
+    console.log(name)
+}
+// undefined
+// for(var i = 0; i < names.length; i++){
+//     console.log(names[i])}
+
+
+*******  warmup *******
+
+
+1. Return a string in reverse
+ex. reverseString(‘hello’) === ‘olleh’
+let reverseString = (str) => {
+    return //Something
+};
+2. Return true if palindrome and false if not
+    ex. isPalindrome(‘racecar’) === ‘true’, isPalindrome(‘hello’) == false
+let isPalindrome = (str) => {
+};
+What is a palindrome?
+    examples.yourdictionary.comexamples.yourdictionary.com
+    Palindrome Examples: Fun Forward and Backward Words
+Palindrome words are a unique and sometimes funny part of the English language. These palindrome examples show how they occur in words and sentences. (32 kB)
+
+
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+reverseString('hello');
+
+
+function palindrome(str){
+    return true;
+}
+palindrome("racecar");
