@@ -203,8 +203,8 @@ books.forEach(function(book){
      *      ---
      *      ...
      */
-    function createBook(a,b){
-        return a = title;
+    function createBook(bookName,authorFirstName,authorLastName){
+        return books = bookName, authorFirstName,authorLastName;
     }
 
     /**

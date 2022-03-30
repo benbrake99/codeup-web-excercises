@@ -1,9 +1,16 @@
 (function() {
     "use strict";
 
-    // create a circle object
+    create a circle object
     var circle = {
         radius: 3,
+        return 2 * Math.PI * radius;
+
+    //     function circleObj(radius){
+    //         return 2 * Math.PI * radius;
+    //         console.log(Math.PI);
+    //         console.log(circleObj(3))
+    // }
 
         getArea: function () {
             // TODO: complete this method
@@ -11,9 +18,22 @@
 
             return; // TODO: return the proper value
         },
-
-        logInfo: function (doRounding) {
+        //     function circleObj(radius){
+        //         return 2 * Math.PI * radius;
+        //         console.log(Math.PI);
+        //         console.log(circleObj(3))
+        // }
+        // logInfo: function circleObj(doRounding) {
             // TODO: complete this method.
+
+                function circleObj(radius) {
+                    return 2 * Math.PI * radius;
+                    var area = radius
+                }
+                    console.log(Math.PI);
+                    console.log(circleObj(3));
+                    console.log(circleObj(3)(Math.round));
+                    console.log("Area of a circle with radius: " + this.radius + ", is: " + area);
 
             // If doRounding is true, round the result to the nearest integer.
             // Otherwise, output the complete value
