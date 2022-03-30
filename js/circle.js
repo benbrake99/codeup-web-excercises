@@ -55,3 +55,22 @@
 // var c = new circle(3);
 // console.log('Area =', c.area().toFixed(2));
 // console.log('perimeter =', c.perimeter().toFixed(2));
+
+// prototype example
+//
+// Example: prototype
+// function Student() {
+//     this.name = 'John';
+//     this.gender = 'M';
+// }
+//
+// var studObj = new Student();
+//
+// console.log(Student.prototype); // object
+// console.log(studObj.prototype); // undefined
+// console.log(studObj.__proto__); // object
+//
+// console.log(typeof Student.prototype); // object
+// console.log(typeof studObj.__proto__); // object
+//
+// console.log(Student.prototype === studObj.__proto__ ); // true
