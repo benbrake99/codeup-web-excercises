@@ -1,56 +1,56 @@
-(function() {
-    "use strict";
-
-    /**
-     * TODO:
-     * Create an object with firstName and lastName properties that are strings
-     * with your first and last name. Store this object in a variable named
-     * `person`.
-     *
-     * Example:
-     *  > console.log(person.firstName) // "Rick"
-     *  > console.log(person.lastName) // "Sanchez"
-     */
-
-var person = {;
-    firstName: 'Ben',
-        lastName:'Brake',
-
-}
-
-console.log(person.firstName);
-console.log(person.lastName);
-
-
-
-
-
-
-
-
-
-    /**
-     * TODO:
-     * Add a sayHello method to the person object that returns a greeting using
-     * the firstName and lastName properties.
-     * console.log the returned message to check your work
-     *
-     * Example
-     * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
-     */
-
-    var person = {;
-    firstName: 'Ben',
-    lastName:'Brake',
-    sayHello: function(){
-        return "Hello from " + person.firstName + " " + person.lastName + "!"
-    }
-}
-
-    console.log(person.firstName);
-    console.log(person.lastName);
-    console.log(person + "Hello from Rick Sanchez")
-
+// (function() {
+//     "use strict";
+//
+//     /**
+//      * TODO:
+//      * Create an object with firstName and lastName properties that are strings
+//      * with your first and last name. Store this object in a variable named
+//      * `person`.
+//      *
+//      * Example:
+//      *  > console.log(person.firstName) // "Rick"
+//      *  > console.log(person.lastName) // "Sanchez"
+//      */
+//
+// var person = {;
+//     firstName: 'Ben',
+//         lastName:'Brake',
+//
+// }
+//
+// console.log(person.firstName);
+// console.log(person.lastName);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//     /**
+//      * TODO:
+//      * Add a sayHello method to the person object that returns a greeting using
+//      * the firstName and lastName properties.
+//      * console.log the returned message to check your work
+//      *
+//      * Example
+//      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
+//      */
+//
+//     var person = {;
+//     firstName: 'Ben',
+//     lastName:'Brake',
+//     sayHello: function(){
+//         return "Hello from " + person.firstName + " " + person.lastName + "!"
+//     }
+// }
+//
+//     console.log(person.firstName);
+//     console.log(person.lastName);
+//     console.log(person + "Hello from Rick Sanchez")
+//
 
 
 
@@ -68,12 +68,44 @@ console.log(person.lastName);
      * represents one shopper. Use a foreach loop to iterate through the array,
      * and console.log the relevant messages for each person
      */
+//
+//     var shoppers = [
+//
+//         {name: 'Cameron', amount: 180},
+//
+//         {name: 'Ryan', amount: 250},
+//
+//         {name: 'George', amount: 320}
+//     ];
+//
+//     // shoppers.forEach(function (shopper) {
+//     //         var baseAmount;
+//     //
+//     //     if (shopper.amount >= 200) {
+//     //         console.log('amount before discount ' + shopper.amount);
+//     //         console.log('your discount is: .12');
+//     //         console.log('Amount after discount: ' + shopper.amount - (shopper.amount * .12))
+//     //     } else {
+//     //         console.log(' ')
+//     //     }
+//     // }
+//
+// shoppers.forEach(function(shopper){
+//     var baseAmount = shopper.amount;
+//     console.log(shopper.name);
+//
+//     if(shopper.amount > 200){
+//
+//         console.log("Amount due before discount: " + baseAmount);
+//         console.log("Applied discount: 12%");
+//         console.log("Amount due after discount: ", baseAmount - (baseAmount * .12));
+//     } else {
+//         console.log("Amount due: " + baseAmount);
+//     }
+// })
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
+
+
 
     /** TODO:
      * Create an array of objects that represent books and store it in a
@@ -87,6 +119,65 @@ console.log(person.lastName);
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+var books = [
+    {title: 'Coding',
+    author: {
+        firstName: 'John',
+        lastName: 'Smith'
+
+    }
+    },
+    {title: 'CSS For Dummies',
+        author: {
+            firstName: 'David',
+            lastName: 'Johnson'
+
+        }
+    },
+    {title: "Know Computers",
+        author: {
+            firstName: 'Bob',
+            lastName: 'Jones'
+
+        }
+    },
+    {title: 'Git the Data',
+        author: {
+            firstName: 'Mary',
+            lastName: 'Lang'
+
+        }
+    },
+    {title: 'Nightmare on Function Street',
+        author: {
+            firstName: 'Fung',
+            lastName: 'Shun'
+
+        }
+    }
+];
+// console.log(books);
+// console.log(books[0].title);
+// console.log(books[0].author.firstName);
+// console.log(books[0].author.lastName);
+
+books.forEach(function(book){
+    console.log("book #" + books.indexOf(book));
+    console.log(books);
+    console.log("The book title is " + book.title);
+    console.log([])
+
+
+    // for (initialExpression; condition; updateExpression) {
+    // } // for loop body
+})
+
+
+
+
+
+
+
 
     /**
      * TODO:
@@ -112,6 +203,9 @@ console.log(person.lastName);
      *      ---
      *      ...
      */
+    function createBook(a,b){
+        return a = title;
+    }
 
     /**
      * Bonus:
@@ -124,4 +218,4 @@ console.log(person.lastName);
      *   `showBookInfo` function.
      */
 
-})();
+// })();
