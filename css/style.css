@@ -8,17 +8,21 @@ comment
 /*    color: purple; !* single line comment *!*/
 /*    text-decoration: underline;*/
 /*}*/
+body {
+    /*background: linear-gradient(darkgrey, mediumpurple);*/
+background-image:
+url(https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024,h_683/https://www.labradortraininghq.com/wp-content/uploads/2018/07/when-do-lab-puppies-stop-growing-1024x683.jpg;);
+background-size: cover;
+    opacity: 0.5;
 
-/*<h2>section three</h2>*/
-/*                   <ul class="dark-mode">*/
-/*                                        <li>fact number one</li>*/
-/*                                                             <li id="big-font">fact number two</li>*/
-/*                                                                                                <li>fact number three</li>*/
-/*                                                                                                                       </ul>*/
-
-.dark-mode {
-    background-image: image(http://www.cookography.com/wp-content/uploads/2008/03/IMG_0435-800x533.jpg);
-    background-color: blue;
-    color: white;
-    border-color: purple, solid 10;
+}
+h1, h2 {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.fancy-header {
+    text-align: center
+}
+ul{
+    list-style-type: square;
 }
