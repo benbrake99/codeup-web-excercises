@@ -9,6 +9,7 @@ comment
 /*    text-decoration: underline;*/
 /*}*/
 body {
+    font-family: Verdana;
     /*background: linear-gradient(darkgrey, mediumpurple);*/
 background-image:
 url(https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024,h_683/https://www.labradortraininghq.com/wp-content/uploads/2018/07/when-do-lab-puppies-stop-growing-1024x683.jpg;);
@@ -25,4 +26,26 @@ h1, h2 {
 }
 ul{
     list-style-type: square;
+}
+td,tr {
+    padding: 10px;
+    font-size: 10px;
+}
+a:link {
+    color: purple;
+}
+
+/* visited link */
+a:visited {
+    color: darkorange;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: yellowgreen;
 }
