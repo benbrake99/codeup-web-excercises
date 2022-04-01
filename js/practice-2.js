@@ -276,11 +276,34 @@
 // expected output: [4,2,8,6];
 
 
-var numShuffle = [2,4,6,8];
-var shuffleArray = numShuffle.sort((a,b) => 0.5 - Math.random());
-console.log(numShuffle);
+// var numShuffle = [2,4,6,8];
+// var shuffleArray = numShuffle.sort((a,b) => 0.5 - Math.random());
+// console.log(numShuffle);
 
 
+//Write a function that returns the reading status of each of following books
+
+var library = [
+    {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true
+    },
+    {
+        author: 'Suzanne Collins',
+        title:  'Mockingjay: The Final Book of The Hunger Games',
+        readingStatus: false
+    }];
+function myLibrary(){
+
+    for(var i = 0,library.length + 1, i++)
+
+}
 
 
 

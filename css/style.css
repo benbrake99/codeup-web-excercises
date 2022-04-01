@@ -2,9 +2,23 @@
 multi
 line
 comment
-*/
+/**!*/
 
-.fancy-header {
-    color: purple; /* single line comment */
-    text-decoration: underline;
+/*.fancy-header {*/
+/*    color: purple; !* single line comment *!*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*<h2>section three</h2>*/
+/*                   <ul class="dark-mode">*/
+/*                                        <li>fact number one</li>*/
+/*                                                             <li id="big-font">fact number two</li>*/
+/*                                                                                                <li>fact number three</li>*/
+/*                                                                                                                       </ul>*/
+
+.dark-mode {
+    background-image: image(http://www.cookography.com/wp-content/uploads/2008/03/IMG_0435-800x533.jpg);
+    background-color: blue;
+    color: white;
+    border-color: purple, solid 10;
 }
