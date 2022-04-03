@@ -41,8 +41,8 @@ fieldset {
     width: 100%;
     /* This element must use 100% of the width */
     /* It should have a separation of .5em from elements on top of it and below it*/
-    border-spacing: inherit;
-    padding: 1.5em;
+    border-spacing: 1em;
+    padding: 1em;
 }
 
 .form-label {
@@ -52,16 +52,18 @@ fieldset {
 
 .btn-block {
     /* This element should use 100% of the width */
-    width: 100%;}
+    width: 100%;
+}
 
 .btn {
     /* There must be a separation of 8px between the text and the border of this element */
-    padding: 8px;
-    width: 100%;
+    padding: 8px 10px;
+    width: 99%;
     /* The text color of this element should be white and bold */
     color: white;
     font-weight: bold;
     /* The border of this element should be 1px, and its color should be light grey */
+    border-color: lightgray;
     border-spacing: 1px;
     background-color: #0fb784;
 }
