@@ -55,6 +55,7 @@ fieldset {
 .btn {
     /* There must be a separation of 8px between the text and the border of this element */
     padding: 8px;
+    width: calc(100% - 20px);
     /* The text color of this element should be white and bold */
     color: white;
     font-weight: bold;
@@ -70,9 +71,8 @@ fieldset {
     border-spacing: .5em;
 
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */
-    width: calc(100% == 100%);
+    width: calc(100% - 20px);
 
     /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
-    width: 100%;
 }
