@@ -19,5 +19,58 @@ body, html {
 }
 
 .info {
+    margin-left: 1em;
+    height: 25px;
+    vertical-align: center;
+    font-size: 24px;
     color: blue;
+    display:block;
+    width: 1500px;
+    padding: 20px 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightblue; transparent;
+}
+.success {
+    margin-left: 1em;
+    height: 25px;
+    vertical-align: center;
+    font-size: 24px;
+    color: blue;
+    display:block;
+    width: 1500px;
+    padding: 20px 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightgreen; transparent;
+}
+.warning {
+    margin-left: 1em;
+    height: 25px;
+    vertical-align: center;
+    font-size: 24px;
+    color: blue;
+    display:block;
+    width: 1500px;
+    padding: 20px 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightyellow; transparent;
+}
+.error {
+    margin-left: 1em;
+    height: 25px;
+    vertical-align: center;
+    font-size: 24px;
+    color: blue;
+    display:block;
+    width: 1500px;
+    padding: 20px 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightpink; transparent;
 }
