@@ -47,6 +47,7 @@ fieldset {
 .form-label {
     /* The text of a label must be bold */
     font-weight: bold;
+    font-size: 20px;
 }
 
 .btn-block {
@@ -58,12 +59,13 @@ fieldset {
 
 .btn {
     /* There must be a separation of 8px between the text and the border of this element */
-    height: 50px;
+    height: 2em;
     padding: 8px 8px;
     width: 99%;
     /* The text color of this element should be white and bold */
     color: white;
     font-weight: bold;
+    font-size: 22px;
 
     /* The border of this element should be 1px, and its color should be light grey */
     border-style: solid;
@@ -81,7 +83,7 @@ fieldset {
     height: 2em;
 
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */
-    width: calc(100% - 2.5%);
+    width: calc(100% - 20px);
 
     /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
