@@ -1,3 +1,17 @@
+/*<div class="message message-info">*/
+/*     An informational message*/
+
+/*<div class="message message-success">*/
+/*    A success message*/
+
+/*<div class="message message-warning">*/
+/*    A warning message*/
+/*    */
+/*</div> class="message message-error">*/
+/*    An error message*/
+
+
+
 body, html {
     height: 100%;
     width: 100%;
