@@ -10,12 +10,14 @@
 /*</div> class="message message-error">*/
 /*    An error message*/
 
-
-
 body, html {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
     font-family: Arial, Ubuntu, sans-serif;
+}
+
+.info {
+    color: blue;
 }
