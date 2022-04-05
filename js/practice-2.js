@@ -311,11 +311,11 @@
 // example input: [12,2,3,4,5,6,7,8,9]
 // expected output: [2,2,4,6,8]
 
-function myArray[12,2,3,4,5,6,7,8,9] {
-
-    for(i = 0, myArray(%2)); i++;
-
-}
+// function myArray[12,2,3,4,5,6,7,8,9] {
+//
+//     for(i = 0, myArray(%2)); i++;
+//
+// }
 
 
 
@@ -333,9 +333,20 @@ function myArray[12,2,3,4,5,6,7,8,9] {
 
 
 
+example input: [1,2,3,4,5];
+expected output: 15
+some possible test cases to think about:
+    function should be called ‘sumArr’
+function should return a number
+function should accept an array
+function should return “sum not available” if array is empty
+function should handle non-numbers
 
-
-
+var arr = [1, 2, 3, 4, 5];
+var sum = arr.reduce(function (a, b) {
+    return a + b;
+}, 0);
+console.log(sum);
 
 
 
