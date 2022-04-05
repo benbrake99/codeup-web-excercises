@@ -32,6 +32,7 @@ a {
     padding: 0;
     display: inline;
     text-align: center;
+    position: fixed;
 
 }
 .nav {
@@ -64,17 +65,19 @@ a {
     /*clear: bottom;*/
 }
 .profile-image {
-    object-position: center top;
+    position: absolute;
+    top: 240px;
 
 }
 .profile-form {
-    float: left;
 }
 .profile-details {
+    width: calc(25% - 1em)
 
 }
 .container {
-    clear: top;
+    margin-top: ;
+
 }
 .btn {
     border: 1px solid var(--main-link-color);
@@ -83,6 +86,7 @@ a {
     font-weight: bold;
     padding: 8px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .btn-large {
     font-size: 1.3em;
